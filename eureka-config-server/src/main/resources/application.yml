@@ -19,9 +19,10 @@ spring:
 #      password: guest
 #设置服务注册中心地址，指向另一个注册中心
 eureka:
-  instance:
-      hostname: ${spring.cloud.client.ipAddress}
-      instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+#有了defaultZone，就不需要instanceId了
+#  instance:
+#      hostname: ${spring.cloud.client.ipAddress}
+#      instanceId: ${spring.cloud.client.ipAddress}:${server.port}
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
