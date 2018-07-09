@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: eureka-provider
+management:
+  security:
+    enabled: false
