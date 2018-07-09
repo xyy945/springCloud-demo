@@ -7,11 +7,12 @@ spring:
     config:
       profile: dev #指定配置环境，配置文件如果是多环境则取名类似：config-dev.yml
 #      name: eureka-provider #指定配置文件名字（多个配置文件以英文逗号隔开）
+    #spring.cloud.config.uri= http://localhost:8888/作用与discovery一样
       label: master #配置仓库的分支
       discovery:
         enabled: true
         serviceId: eureka-config #连接的配置中心名字（applicaiton.name）
-        #spring.cloud.config.uri= http://localhost:8888/
+
   rabbitmq:
     host: localhost
     port: 5672
