@@ -59,6 +59,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
         <!--优雅停服，不再Eureka Server中配置关闭自我保护-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
