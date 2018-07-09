@@ -12,8 +12,22 @@ public class HelloController {
     @Value("${server.port}")
     private int port;
 
+    @Value("${cwj.user}")
+    String cwjUser;
+    @Value("${cwj.password}")
+    String cwjPassword;
+
+
     @RequestMapping("index")
     public String index(){
         return "Hello World!,端口："+port;
     }
+
+
+    @RequestMapping("/helloCon")
+    public String showUserAndPassword(){
+        String sb = "username is " + cwjUser + "," + "password is " +cwjPassword;
+        return sb;
+    }
+
 }
