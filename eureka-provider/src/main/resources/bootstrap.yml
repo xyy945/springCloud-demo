@@ -1,8 +1,12 @@
 spring:
   application:
     name: eureka-provider
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
+#  profiles:
+#    active: git
+#  profiles:
+#    active: native
   cloud:
     config:
       profile: dev #指定配置环境，配置文件如果是多环境则取名类似：config-dev.yml
@@ -16,10 +20,7 @@ spring:
     port: 5672
     username: guest
     password: guest
-management:
-  security:
-    #关闭安全验证，否则访问refresh端点时会提示权限不足
-    enabled: false
+
 #server:
 #  port: 9090
 
