@@ -11,6 +11,15 @@ spring:
       discovery:
         enabled: true
         serviceId: eureka-config #连接的配置中心名字（applicaiton.name）
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  security:
+    #关闭安全验证，否则访问refresh端点时会提示权限不足
+    enabled: false
 #server:
 #  port: 9090
 
