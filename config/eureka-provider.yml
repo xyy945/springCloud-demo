@@ -6,7 +6,7 @@ server:
   port: 8999
 spring:
   application:
-    name: eureka-provider
+     name: eureka-provider
 management:
   security:
-    enabled: false
+     enabled: false
