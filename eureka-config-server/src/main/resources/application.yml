@@ -12,7 +12,7 @@ spring:
             uri: https://github.com/xyy945/springCloud-demo.git #配置git仓库地址
             searchPaths: config #配置仓库路径
             username: xyy945 #访问git仓库的用户名
-            password: cwj_echo_945 #访问git仓库的用户密码
+            password: ****** #访问git仓库的用户密码
         label: master #配置仓库的分支
 #设置服务注册中心地址，指向另一个注册中心
 eureka:
