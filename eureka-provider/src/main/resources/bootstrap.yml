@@ -9,7 +9,9 @@ spring:
 #    active: native
   cloud:
     config:
-      profile: dev #指定配置环境，配置文件如果是多环境则取名类似：config-dev.yml
+#      profile: dev #指定配置环境，配置文件如果是多环境则取名类似：config-dev.yml
+#      profile: native
+#      profile: git
       name: eureka-provider #指定配置文件名字（多个配置文件以英文逗号隔开）
       label: master #git仓库分支名
       discovery:
