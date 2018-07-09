@@ -21,6 +21,10 @@ spring:
 server:
   port: 9090
 
+#关闭配置中心安全认证
+management:
+  security:
+     enabled: false
 #设置服务注册中心地址，指向另一个注册中心
 eureka:
   client:
