@@ -3,12 +3,9 @@ server:
 spring:
   application:
      name: eureka-config
-#  profiles:
-#      active: dev
-#  profiles:
-#      active: git
-#  profiles:
-#      active: native
+
+  profiles:
+      active: native
   cloud:
       config:
         server:
