@@ -11,6 +11,7 @@ spring:
         server:
           native:
             searchLocations: D:/cloudConfig
+        label: master #配置仓库的分支
 #  rabbitmq:
 #      host: localhost
 #      port: 5672
