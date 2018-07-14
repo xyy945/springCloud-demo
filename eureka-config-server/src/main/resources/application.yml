@@ -14,12 +14,12 @@ spring:
         label: master #配置仓库的分支
 #  rabbitmq:
 #      host: localhost
-#      port: 5672
-#      username: guest
-#      password: guest
+#      port: *****
+#      username:****
+#      password: ****
 #设置服务注册中心地址，指向另一个注册中心
 eureka:
-#有了defaultZone，就不需要instanceId了
+
 #  instance:
 #      hostname: ${spring.cloud.client.ipAddress}
 #      instanceId: ${spring.cloud.client.ipAddress}:${server.port}
