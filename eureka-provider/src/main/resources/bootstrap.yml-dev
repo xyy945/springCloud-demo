@@ -42,6 +42,6 @@ eureka:
 #        serviceId: config #连接的配置中心名字（applicaiton.name）
 #  rabbitmq:
 #    host: localhost
-#    port: 5672
+#    port: ****
 #    username: *****
 #    password: *****
