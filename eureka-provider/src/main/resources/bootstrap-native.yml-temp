@@ -13,9 +13,9 @@ spring:
         serviceId: eureka-config #连接的配置中心名字（applicaiton.name）
   rabbitmq:
     host: localhost
-    port: 5672
-    username: guest
-    password: guest
+    port: *****
+    username: *****
+    password: ****
 
 #server:
 #  port: 9090
@@ -42,6 +42,6 @@ eureka:
 #        serviceId: config #连接的配置中心名字（applicaiton.name）
 #  rabbitmq:
 #    host: localhost
-#    port: 5672
-#    username: guest
-#    password: guest
+#    port: ****
+#    username: ******
+#    password: ******
